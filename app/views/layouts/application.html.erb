@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+  <%= stylesheet_link_tag "bootstrap_custom", "data-turbo-track": "reload" %>
   <head>
     <title>Blogstrap</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -11,6 +12,11 @@
   </head>
 
   <body>
+    <%= render 'layouts/topnavbar' %>
+
+
     <%= yield %>
+
+    <%= render 'layouts/footer' %>
   </body>
 </html>
