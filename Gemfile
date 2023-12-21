@@ -69,3 +69,5 @@ end
 gem "sassc-rails"
 
 gem "cssbundling-rails"
+
+gem "webpacker"
