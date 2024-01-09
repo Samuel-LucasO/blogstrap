@@ -71,3 +71,7 @@ gem "sassc-rails"
 gem "cssbundling-rails"
 
 gem "webpacker"
+
+gem "simple_form"
+
+gem "kaminari", "~> 1.2"
