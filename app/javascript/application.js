@@ -4,7 +4,6 @@ import "@hotwired/turbo-rails"
 import "controllers"
 import * as bootstrap from "bootstrap"
 import 'bootstrap'
-import '../javascript/stylesheets/application.scss'
 import Rails from "@rails/ujs"
 
 document.addEventListener("turbolinks:load", () => {
