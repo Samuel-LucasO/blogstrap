@@ -55,7 +55,7 @@ class CategoriesController < ApplicationController
         format.json { head :no_content }
       end
     else
-      redirect_to categories_url, warning: @category.errors.messages[:base][0]
+      redirect_to categories_url, alert: @category.errors.messages[:base][0], class: 'btn btn-secondary'
     end
   end
 
