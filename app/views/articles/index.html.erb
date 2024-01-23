@@ -12,7 +12,7 @@
     </h3>
     
     <p>
-      <button type="button" class="btn btn-info"><%= link_to 'New Article', new_article_path%></button>
+      <%= link_to 'New Article', new_article_path, class: 'btn btn-info' if user_signed_in?%>
     </p>
 
     <%= render @articles %>

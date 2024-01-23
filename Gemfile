@@ -85,3 +85,5 @@ gem 'devise', '~> 4.9'
 gem 'ruby-lsp'
 
 gem "omniauth", "~> 2.1"
+
+gem "pundit", "~> 2.3"
