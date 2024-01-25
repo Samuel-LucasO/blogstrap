@@ -118,6 +118,8 @@ GEM
     ffi (1.16.3-x64-mingw-ucrt)
     globalid (1.2.1)
       activesupport (>= 6.1)
+    groupdate (6.4.0)
+      activesupport (>= 6.1)
     hashie (5.0.0)
     i18n (1.14.1)
       concurrent-ruby (~> 1.0)
@@ -320,6 +322,7 @@ DEPENDENCIES
   cssbundling-rails
   debug
   devise (~> 4.9)
+  groupdate (~> 6.4)
   importmap-rails
   jbuilder
   kaminari (~> 1.2)

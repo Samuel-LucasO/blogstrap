@@ -88,3 +88,5 @@ gem 'ruby-lsp'
 gem "omniauth", "~> 2.1"
 
 gem 'pundit', '~> 2.3'
+
+gem "groupdate", "~> 6.4"
