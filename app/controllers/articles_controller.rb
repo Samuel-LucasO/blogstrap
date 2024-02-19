@@ -72,6 +72,6 @@ class ArticlesController < ApplicationController
   end
 
   def set_categories
-    @categories = Category.find
+    @categories = Category.all
   end
 end
